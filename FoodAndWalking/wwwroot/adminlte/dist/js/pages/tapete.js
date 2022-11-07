@@ -9,7 +9,7 @@
 
 anychart.onDocumentReady(function () {
     anychart.data.loadJsonFile(
-        'https://plataformadigital.guanajuato.gob.mx/docs/surfaceAreaData.json',
+        'https://raw.githubusercontent.com/luis5523/FoodAndWalking/master/FoodAndWalking/wwwroot/resources/surfaceAreaData.json',
         function (data) {
             // processing of the data
             var result = [];
